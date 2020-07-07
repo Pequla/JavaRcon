@@ -76,7 +76,7 @@ public class CustomRcon extends Rcon {
     @Override
     public String toString() {
         Socket s = getSocket();
-        return s.getInetAddress() + ":" + s.getLocalPort();
+        return s.getInetAddress() + ":" + s.getPort();
     }
 
 }
