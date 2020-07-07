@@ -1,1 +1,1 @@
-java -Xmx256M -jar JavaRcon.jar
+java -jar JavaRcon.jar
