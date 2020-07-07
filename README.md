@@ -1,13 +1,13 @@
 # JavaRcon
 
-**JavaRcon** is a simple **java based remote console tool** primarly intended to be used for sending commands to Source endgine and Minecraft servers remotely. Game server must have rcon enabled in order for this tool to work.
+**JavaRcon** is a simple **java based remote console tool** primarly intended for sending commands to Minecraft servers remotely. Game server must have rcon enabled in order for this tool to work.
 
 You can use this program compiled or you can also compile it yourself by using the included source code. Also you can download the latest compiled version from relises !
 
 ## Getting Started
 
 I will give you a short tutorial on how to set up this tool on a Debian distribution called Ubuntu Server (these steps should be same for any Debian based Linux distro). I recommend using Debian distribution called Ubuntu Server for any type of server hosting.
-More detailed guide will be available here: [JavaRcon](https://github.io/docs/javarcon/index.html)
+More detailed guide will be available here: [JavaRcon](https://pequla.github.io/projects/javarcon/index.html)
 
 ### Prerequisites (Windows)
 
@@ -26,6 +26,7 @@ java version "1.8.0_241"
 Java(TM) SE Runtime Environment (build 1.8.0_241-b07)
 Java HotSpot(TM) 64-Bit Server VM (build 25.241-b07, mixed mode)
 ```
+NOTE: You might have different java version installed on your computer, at the time of creating this file Java 8u241 was the latest reliese
 
 ### Prerequisites (Debian\Ubuntu)
 
@@ -61,14 +62,14 @@ rcon.port=25575
 rcon.host=localhost
 ```
 
-But if you are on Debian distros such as Ubuntu you will alongside editing that config file need to rename the run.bat file to run.sh and thay use terminal to make it executable:
+But if you are on Debian distros such as Ubuntu you will, alongside editing that config file, need to rename the run.bat file to run.sh and then use terminal to make it executable:
 
 ```
 sudo rn run.bat run.sh
 sudo chmod u+x run.sh
 ```
 
-NOTE: If you get error after trying to run the run.sh file with ./run.sh please make these files executable too:
+NOTE: If you get an error after trying to run the run.sh file with ./run.sh please make these files executable too:
 
 ```
 sudo chmod u+x JavaRcon.jar
@@ -79,10 +80,6 @@ sudo chmod u+x /lib/rkon*
 
 * [rkon-core](https://github.com/Kronos666/rkon-core) - Source RCON protocol library made by Kronos666
 
-## Authors
+## Author
 
 * **Petar Kresoja** - *University Singidunum - Faculty of Informatics and Computing* - [Pequla](https://github.com/Pequla)
-
-## License
-
-This project has no licence but any kind of notice to the github page would be kindly appreciated. Thanks !!!
